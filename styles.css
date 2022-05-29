@@ -69,7 +69,7 @@ a,ul{
     color: var(--secondary-clr);
 }
 .background-img{
-    background-image: url(/images/food.png);
+    background-image: url(images/food.png);
     height: 75vh;
     background-position: center;
     background-repeat: no-repeat;
