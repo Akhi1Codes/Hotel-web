@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Open+Sans:wght@400;600&display=swap'); 
+
+:root{
+    --main-clr:#222629;
+    --main-light-clr:#575b5f;
+    --secondary-clr:#faed27;
+    --basic-clr:white;
+
+    --body-font:'Open Sans', sans-serif;
+    --h1-font-size:2rem;
+    --normal-font-size:0.938rem;
+    --tiny-font-size:0.625rem;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+ }
+.container{
+    height: 3.5rem;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 1.25rem 1.25rem;
+    background-color: var(--main-clr);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    color: var(--secondary-clr);
+    font-family: 'Arizonia', cursive;;
+    font-size:2rem;
+    font-weight: 600;
+}
+.nav-link,.nav-list{
+    color:var(--main-light-clr);
+    display: flex;
+}
+.nav-link{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.25rem;
+    font-weight: 600;
+}
+.nav-list{
+    justify-content:space-around;
+    width:30rem;
+    font-family: var(--body-font);
+    font-size:var(--normal-font-size);
+}
+a,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+#nav-icon{
+    font-size: 1.5rem;
+    display: none;
+}
+.active{
+    color: var(--secondary-clr);
+}
+.background-img{
+    background-image: url(../Hotel/images/food.png);
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-heading{
+    text-align: center;
+    padding-top: 13%;
+    color: white;
+    font-weight: 600;
+    font-size: var(--h1-font-size);
+    text-shadow: 3.5px 3.5px var(--main-clr);
+}
+.act-button{
+    display: block;
+    margin: auto;
+    border:none;
+    padding: 15px 28px;
+    font-weight: 600;
+    font-size: var(--normal-font-size);
+    margin-top: 3%;
+    background-color:var(--secondary-clr);
+    color: var(--main-clr);
+    border-radius: 10px;
+}
+.menu{
+    width: 100%;
+    height:auto;
+    background-color: var(--main-clr);
+    padding: 10px;
+}
+.h2-name{
+    color: var(--secondary-clr);
+    font-size: 1.7rem;
+    padding: 17px 0 0 15px;
+}
+.menu-images{
+    padding: 2rem 1rem 2rem 0;
+    display:flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+.menu-img{
+    border-radius: 10px;
+}
+.menu-name{
+    font-size: var(--tiny-font-size);
+    font-weight: 800;
+    color: white;
+    font-family: var(--body-font);
+}
+.address{
+    width: 100%;
+    height:auto;
+    background-color: var(--secondary-clr);
+    padding: 2rem;
+    padding-bottom: 20rem;
+}
+.adr-bar{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:space-around;
+    row-gap: 2.5rem;
+    color: var(--main-clr);
+}
+.adr-img{
+    border-radius: 20px;
+}
+.adr-name{
+    color: var(--main-clr);
+    font-size: 1.7rem;
+}
+.main-adr{
+    font-weight: 800;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
