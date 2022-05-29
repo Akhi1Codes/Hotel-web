@@ -36,5 +36,10 @@
     .main-heading{
         padding-top: 50%;
     }
-    
+    .main-det{
+        padding: 1rem;
+    }
+    .main-name{
+        font-size: 1rem;
+    }
 }

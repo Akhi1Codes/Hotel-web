@@ -107,7 +107,7 @@ a,ul{
     padding: 17px 0 0 15px;
 }
 .menu-images{
-    padding: 2rem 1rem 2rem 0;
+    padding: 2rem 0rem 2rem 0;
     display:flex;
     text-align: center;
     flex-flow: row wrap;
@@ -117,17 +117,18 @@ a,ul{
     border-radius: 10px;
 }
 .menu-name{
-    font-size: var(--tiny-font-size);
+    font-size: var(--normal-font-size);
     font-weight: 800;
     color: white;
     font-family: var(--body-font);
+    padding: 0.5rem;
 }
 .address{
     width: 100%;
     height:auto;
     background-color: var(--secondary-clr);
     padding: 2rem;
-    padding-bottom: 20rem;
+    padding-bottom: 7rem;
 }
 .adr-bar{
     display:flex;
@@ -144,8 +145,8 @@ a,ul{
     color: var(--main-clr);
     font-size: 1.7rem;
 }
-.main-adr{
+.main-adr,.lit-num{
     font-weight: 800;
-    font-size: var(--normal-font-size);
+    font-size: 1.2rem;
     font-family: var(--body-font);
 }
