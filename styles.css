@@ -75,6 +75,8 @@ a,ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    content-visibility: auto;
+    background-color:var(--main-light-clr);
 }
 .main-heading{
     text-align: center;
