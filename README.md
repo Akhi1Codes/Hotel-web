@@ -10,5 +10,7 @@ A small scale website for a friend bussiness
 Languages Used:</br>
 Html</br>
 Css</br>
-Javascript
+Javascript<br>
+
+Webpage:https://ar-akhil.github.io/Hotel-web
 
