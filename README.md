@@ -3,7 +3,7 @@
 
 A Homepage responsive website for the Hotel,detailing the items available and sold. With the information available to contact the hotel.
 
-Live Link : https://ar-akhil.github.io/Hotel-web
+Live Link : https://akhi1codes.github.io/Hotel-web/
 
 ## Screenshots
 ![Desktop Version](https://github.com/Ar-Akhil/Hotel-web/blob/master/images/hotel-desktop.png)
